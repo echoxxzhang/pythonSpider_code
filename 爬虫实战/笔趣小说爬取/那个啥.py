@@ -10,6 +10,6 @@ if __name__ == '__main__':
     texts = soup.find_all(soup.html.body)
     print(texts)
 
-
+test = 1
 ### 关于这个项目，按照作者的源码以及爬不到了，等以后再说
-
+# 测试
