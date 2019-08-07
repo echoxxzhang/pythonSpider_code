@@ -12,7 +12,6 @@ def get_page():
         response =requests.get(url,headers =headers)
         response.raise_for_status()     # 如果有错误，则抛出该异常,如果没错误，返回None
         response.encoding =response.apparent_encoding
-        print(response.status_code)
         html =response.text
         paser_page(html)
     except:
